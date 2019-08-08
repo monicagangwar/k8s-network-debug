@@ -24,7 +24,6 @@ if [[ $output == 1 ]]; then
     echo "Network setup in $time_taken."
     exit 0
 else
-   echo "All attempts exhausted. Pod network not setup in $time_taken."
-   exit 1
+    echo "All attempts exhausted. Pod network not setup in $time_taken."
+    exit 1
 fi
-
